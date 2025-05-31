@@ -28,7 +28,7 @@ var style_PointOfInterest_4 = function(feature, resolution){
                               bufferWidth)
     }),new ol.style.Style({
         image: new ol.style.Circle({radius: 3.2 + size,
-            displacement: [0, 0],  fill: new ol.style.Fill({color: 'rgba(101,172,255,1.0)'})}),
+            displacement: [0, 0],  fill: new ol.style.Fill({color: 'rgba(55,101,168,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
